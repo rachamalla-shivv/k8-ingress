@@ -3,7 +3,7 @@ kind: Deployment
 metadta:
   name: app1
   labels:
-    purpose: ingerss-demo
+    purpose: ingress-demo
     project: roboshop
     app: app1
 spec:
@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       labels:
-        purpose: ingerss-demo
+        purpose: ingress-demo
         project: roboshop
         app: app1
     spec:
